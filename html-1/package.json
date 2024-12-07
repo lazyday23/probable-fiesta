@@ -1,16 +1,17 @@
 {
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
   "name": "html-1",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-        "build": " mkdir -p dist && cp -R node_modules/bootstrap/dist/* dist/"
-  },
+  "devDependencies": {},
+"scripts": {
+  "build": "mkdir -p public/bootstrap && cp -R node_modules/bootstrap/dist/* public/bootstrap/"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  }
+  "description": ""
 }
+
