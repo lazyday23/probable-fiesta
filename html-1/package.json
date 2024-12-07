@@ -5,13 +5,11 @@
   "name": "html-1",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
-"scripts": {
-  "build": "mkdir -p public/bootstrap && cp -R node_modules/bootstrap/dist/* public/bootstrap/"
-},
+  "scripts": {
+    "build": "mkdir -p public/bootstrap && cp -R node_modules/bootstrap/dist/* public/bootstrap/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
 }
-
