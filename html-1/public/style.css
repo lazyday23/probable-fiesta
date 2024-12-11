@@ -22,8 +22,8 @@ image{
     margin-top: 0;
 }
 .header{
-    color:white;
     text-align: center;
+    color : #000;
 }
 #nav{
     background-color: maroon;

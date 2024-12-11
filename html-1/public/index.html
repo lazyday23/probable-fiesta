@@ -5,19 +5,54 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Qieyaz Farms</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
         <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     </head>
-    <body>  
-              <h1 class="header"><img src="images/IMG_0141.PNG" alt="" class="logo"> Supermart Logistics</h1>
-            <nav id="nav">
-                <a href="index.html">Welcome</a>
-                <a href="about.html"> About</a>
-                <a href="contact.html">Contacts</a>
-                <a href="pricing and payments.html">Pricing and Payments</a>
-                <a href="teams.html">Teams</a>
-                <input type="search" class="search" value=""><label for="input"><button>submit</button></label>
+    <body>
+              <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid p-1">
+                  <div  class="w-50">
+                    <a class="navbar-brand fs-6 w-25 px-sm-1 py-sm-1"  href="#">
+                        <img src="images/IMG_0141 1.svg" alt="Logo" class="w-50 h-50 d-inline-block p-0 border border-1 border-primary rounded-circle ">
+                         Supermart Logistics
+                        </a> 
+                  </div>
+             
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Supermart Logistics</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Welcome</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact us </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pricing and payments.html">Payment And Pricing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="teams.html">Teams</a>
+                          </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </nav>
               <section>
                    <div class="body">
@@ -32,12 +67,15 @@
                           <button class="bodybutton"><a href="about.html" class="bodybutton">Get in touch</button>
                    </div>
                   
-                  <div class="indeximage">
+                  <!-- <div class="indeximage">
                        <img src="images/IMG_0151.JPG" alt="" width="" height="">
-                  </div>
+                  </div> -->
                    
               </section>
-              <footer>
+              <section> 
+                fht
+              </section>
+              <!-- <footer>
                   <div class="footer"|>
                       <div class="footer-contacts">
                         <img src="images/social-media-5995251.png" alt="">
@@ -45,7 +83,7 @@
                       &copy;Supermart2021|All Rights Reserved|Yezid Inventore limited
                   </div>
                   
-              </footer>
+              </footer> -->
               <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
               <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
