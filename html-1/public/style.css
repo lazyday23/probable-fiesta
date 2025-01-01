@@ -1,4 +1,8 @@
 /* normal css  */
+/* specifying hwight for content  */
+.height {
+    height: 120px;
+}
 *{
     box-sizing: border-box;
 }
