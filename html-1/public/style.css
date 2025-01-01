@@ -3,6 +3,9 @@
 .height {
     height: 120px;
 }
+.height-for-card{
+    height: 150px;
+}
 *{
     box-sizing: border-box;
 }
