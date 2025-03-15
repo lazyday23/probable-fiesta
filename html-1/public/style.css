@@ -1,3 +1,11 @@
+normal css 
+/* specifying hwight for content  */
+.height {
+    height: 120px;
+}
+.height-for-card{
+    height: 150px;
+}
 *{
     box-sizing: border-box;
 }
@@ -22,8 +30,8 @@ image{
     margin-top: 0;
 }
 .header{
-    color:white;
     text-align: center;
+    color : #000;
 }
 #nav{
     background-color: maroon;
@@ -67,14 +75,14 @@ image{
     display: inline-block;
 }
 .bodybutton{
-    color: yellow;
+     color: yellow;
     background-color: black;
     border-radius: 20px;
     cursor: wait;
     height: 40px;
     box-shadow: none;
 }
-.bodybutton a{
+ .bodybutton a{
     text-decoration: none;
     background-color: black;  
 }
@@ -148,11 +156,11 @@ image{
      padding: 5px;
           
 }
-.indeximage{
+/* .indeximage{
     margin-left:  20%;
     margin-bottom: 0;
     padding: 0;
-}
+} */
 .image-container{
     border: grey 2px solid hidden;
     margin: 2px 2px ;

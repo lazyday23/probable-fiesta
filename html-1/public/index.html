@@ -5,47 +5,345 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Qieyaz Farms</title>
-        <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">
         <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     </head>
-    <body>  
-              <h1 class="header"><img src="images/IMG_0141.PNG" alt="" class="logo"> Supermart Logistics</h1>
-            <nav id="nav">
-                <a href="index.html">Welcome</a>
-                <a href="about.html"> About</a>
-                <a href="contact.html">Contacts</a>
-                <a href="pricing and payments.html">Pricing and Payments</a>
-                <a href="teams.html">Teams</a>
-                <input type="search" class="search" value=""><label for="input"><button>submit</button></label>
+    <body>
+              <nav class="navbar bg-body-tertiary mb-5 fixed-top mb-md-5">
+                        <div class="container-fluid">
+                                    <div  class="w-50">
+                                        <a class="navbar-brand fs-6 w-25 px-sm-1 py-sm-1"  href="#">
+                                          <img src="images/IMG_0141 1.svg" alt="Logo" class="w-50 h-50 d-inline-block p-0 border border-1 border-primary rounded-circle ">
+                                          Supermart Logistics
+                                        </a> 
+                                    </div>
+                                
+                                <button class="navbar-toggler px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                              
+                        </div>
+                  <div class="offcanvas offcanvas-end text-bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Supermart Logistics</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active pt-3" aria-current="page" href="index.html">Welcome</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact us </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pricing and payments.html">Payment And Pricing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="teams.html">Teams</a>
+                          </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </nav>
-              <section>
-                   <div class="body">
-                    <h4> Welcome to Supermart</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ea sequi obcaecati? Vero, optio dolor fuga inventore 
-                        repellat officiis ratione quisquam quos! Ipsa vitae in, reiciendis laboriosam error qui magni repudiandae exercitationem
-                         veniam quo nam nulla eaque totam pariatur aliquid fugit ex enim ullam quas eius dolor excepturi? Facere, sed! Lorem ipsum dolor
-                          sit amet consectetur adipisicing elit. Fugit eum eveniet esse, in quaerat aspernatur odio magnam facilis at quas nulla reprehenderit
-                           voluptatum sed incidunt consectetur, est enim repellat error fugiat sit aliquam asperiores voluptates excepturi! Perspiciatis, nam
-                            facilis at porro voluptas labore ea quos quam accusamus maiores commodi ducimus magni praesentium velit reprehenderit
-                         natus quod ex. Vitae fugiat magnam sed placeat, illum possimus sunt provident expedita maiores quae eius.</p>
-                          <button class="bodybutton"><a href="about.html" class="bodybutton">Get in touch</button>
-                   </div>
-                  
-                  <div class="indeximage">
-                       <img src="images/IMG_0151.JPG" alt="" width="" height="">
-                  </div>
+      
+
+              <section class="mx-3 py-3 my-3 text-dark text-center py-md-3 my-md-5">
+                   <div class="py-5 py-md-5">
+                    <h4  class="text-dark h1 py-1 align-middle text-capitalize py-md-5 pb-md-2 "> Welcome to Supermart</h4>
+                    <p class="align-middle  text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Quo, accusantium cupiditate nisi suscipit porro qui cum praesentium sed exercitationem reprehenderit veniam consequatur 
+                      placeat asperiores ipsam autem cumque natus. Quod perspiciatis ad ut dolorum tempora consequuntur soluta, 
+                      nobis provident, molestias repudiandae officia explicabo vero velit magni. Pariatur impedit quae recusandae dolores.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                      Voluptatem nulla fugiat numquam natus architecto exercitationem esse sed, magnam ab odio.
+                    </p>
+                                <button class="bodybutton btn btn-dark">
+                                    <a href="about.html" class="link-primary">
+                                      Get in touch 
+                                    </a>
+                                </button>
+                   </div> 
                    
+                    <div class="indeximage">
+                        <img src="images/IMG_0151.JPG" alt="" width="" height="" class="img-fluid">
+                    </div> 
               </section>
-              <footer>
-                  <div class="footer"|>
-                      <div class="footer-contacts">
-                        <img src="images/social-media-5995251.png" alt="">
-                      </div>
-                      &copy;Supermart2021|All Rights Reserved|Yezid Inventore limited
+
+              <section class="text-dark cointainer d-md-flex">
+                <div class="container text-center border  border-dark mx-2 my-2 pt-5  bg-body-secondary">
+                  <i class="fa-solid fa-truck-fast fa-beat fa-2xl pb-5" style="color:  #0a64c3 ; font-size: 60px;"></i></i>
+                  <h2 class="text-primary">Fast</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima eveniet quasi velit, explicabo iure hic distinctio sequi nobis recusandae fugiat!</p>
+                </div>
+                <div class="container text-center border border-dark  mx-2 my-2 pt-5 bg-body-secondary">
+                  <i class="fa-regular fa-handshake fa-beat fa-2xl pb-5" style="color:  #0a64c3  ;font-size: 60px; "></i>
+                  <h2 class="text-primary">Reliable</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima eveniet quasi velit, explicabo iure hic distinctio sequi nobis recusandae fugiat!</p>
+                </div>
+                <div class="container text-center border  border-dark mx-2 my-2 pt-5 bg-body-secondary">
+                  <i class="fa-regular fa-lightbulb fa-fade fa-2xl pb-5" style="color: #0a64c3  ;font-size: 60px; "></i>
+                  <h2 class="text-primary">Compitent</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima eveniet quasi velit, explicabo iure hic distinctio sequi nobis recusandae fugiat!</p>
+                </div>
+              </section>
+
+              <section class=""><!-- mt-5 container -->
+                  <div class="">     <!--container container-fluid text-center p-2 bg-body-secondary  -->
+                  <h3 class="text-primary text-center">Why choose us?</h3>
+                  <p class="text-center">Unleasing the power of seamless Logistics.</p>
+                  <p class="text-center">We unleash the power of cutting edge technologies and operational excellence to optimize every phase of your supply-chain ensuring a journey marked by efficency, relaibiltity and unparalled perforamnce</p>
+                </div>
+
+
+                <div class="container text-center mt-4 d-md-flex p">
+
+                  <div class="row col-md-6">
+                    <div class="fs-1  my-1 height bg-secondary text-bg-primary align-content-center">
+                      <i class=" d-block  border border-dark border-3  w-25 mx-auto h-50 rounded-circle bg-success" style="font-size: 30px ; color: #184faf ;">
+                       
+                        <i class="fa-solid fa-heart fa-fade fa-lg"></i>
+                      </i>
+                        Environmental Friendly
+                    </div>
+                    
+                  </div>
+
+                <div class="row" >
+               
+                  <div class="fs-1 my-1 height  bg-success align-content-center">
+                    <i class=" d-block  border border-dark border-3  w-25 mx-auto h-50 rounded-circle bg-secondary" style="font-size: 30px ; color: #184faf ;">
+                      <i class="fa-solid fa-bolt-lightning fa-beat "></i>
+                    </i>
+                    Fast
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="fs-1 my-1 height bg-secondary text-bg-primary align-content-center">
+                    <i class=" d-block  border border-dark border-3  w-25 mx-auto h-50 rounded-circle bg-success" style="font-size: 30px ; color: #184faf ;">
+                      <i class="fa-solid fa-ship fa-beat"></i>
+                    </i>
+                    Advanced Shiping
                   </div>
                   
+                </div>
+                <div class="row">
+                  <div class="fs-1 my-1 height  bg-success align-content-center">
+                    <i class=" d-block  border border-dark border-3  w-25 mx-auto h-50 rounded-circle bg-secondary" style="font-size: 30px ; color: #184faf ;">
+                     
+                      <i class="fa-solid fa-shield-halved fa-fade fa-lg"></i>
+                    </i>
+                      Safe
+                  </div>
+                 </div>
+
+             
+                  
+                </div>
+
+              </section>
+
+              <section class="mt-5 container-fluid">
+                <div class="text-center p-2">
+                  <h3 class="text-primary text-center">Our Locations </h3>
+                  <p class="text-center text-capitalize">We have various locations in different countries</p>
+                </div>
+
+
+                    <div class="container text-center mt-1">
+                        <div class=" mx-auto border-0 h-100 w-100 img-fluid ">
+
+                          <img src="images/Nigeira.jpg" class="card-img-top" alt="Nigeira image">
+                          <div class="card-body">
+                            <p class="card-text fs-3 h1 p-2 ">Nigeria</p>
+                          </div>
+                        </div>
+
+                        <div class=" mx-auto border-0 h-100 w-100 img-fluid ">
+
+                          <img src="images/Ghana.webp" class="card-img-top" alt="Nigeira image">
+                          <div class="card-body">
+                            <p class="card-text fs-3 h1 p-2">Ghana</p>
+                          </div>
+                        </div>
+
+                  
+
+                        <div class=" mx-auto border-0 h-100 w-100 img-fluid " >
+
+                          <img src="images/Togo.jpg" class="card-img-top" alt="Nigeira image">
+                          <div class="card-body">
+                            <p class="card-text fs-3 h1 p-2">Togo</p>
+                          </div>
+                        </div>
+
+                      <img src="images/Benin.jpg" class="card-img-top" alt="Nigeira image">
+                      <div class="card-body">
+                        <p class="card-text fs-3 h1 p-2 ">Benin</p>
+                      </div>
+                    </div>
+                      
+                    </div>
+                
+
+              </section>
+
+
+
+              <section class="bg-body-secondary text-center mt-0 mb-0">
+                    <div class="cointainer mb-0">
+
+                            <div class="row">
+                                <h3 class="fw-bolder fs-1">100%</h3>
+                                <p class="fw-light fs-6  mx-auto"> Delivery Ratings</p>
+                            </div>
+              
+                            <div class="row">
+                                
+                              <h3 class="fw-bolder  fs-1">233+</h3>
+                              <p class="fw-light fs-6 mx-auto">Awards Across the globe</p>
+
+                            </div>
+
+                            <div class="row">
+
+                              <h3 class="fw-bolder  fs-1">13K</h3>
+                              <p class="fw-light fs-6 mx-auto">Clients</p>
+
+                            </div>
+              
+                              <div class="row">
+                                  <h3 class="fw-bolder h-25 fs-1">17K</h3>
+                                  <p class="fw-light fs-6  mx-auto">Happy Members</p>
+                            </div>
+                    </div>
+            </section>
+
+            <section class="container-fluid bg-dark-subtle" style="height: 300px;">
+              <h1 class="text-capitalize  text-center p-4">
+                Are you ready to ship your next percel with us?
+              </h1>
+
+              <button type="submit" class="btn bg-black text-white fs-3 d-flex justify-content-center mx-auto mb-2">
+                <a href="contact.html" class="text-decoration-none text-light">
+                  Get In touch 
+                  <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
+                </a>
+              </button>
+            </section>
+            
+             
+              <footer class="container">
+                      <div class="row">
+                            <div class="col h-100">
+                              <a class="navbar-brand fw-light fs-3 my-5 mx-1"  href="#">
+                                <img src="images/IMG_0141 1.svg" alt="Logo" class="w-25 h-75 d-inline-block  border border-1 border-primary rounded-circle my-2 d-block"> <img src="" alt="">
+                                Supermart Logistics
+                              </a> 
+                              <h3 class="text-capitalize text-start fs-6 fw-lighter p-1">Get the best postal service</h3>
+                            </div>
+
+                            <div class="col-12 h-100 mt-4 fs-6 fw-bold">
+
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html">Welcome</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contact.html">Contact us </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pricing and payments.html">Payment And Pricing</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="teams.html">Teams</a>
+                                  </li>
+                              </ul>
+                            </div>
+
+                            <div class="col-12 h-100 mt-5 fs-6 fw-bold">
+
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">Locations</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Package Tracking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contact.html">About </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="pricing and payments.html">Support</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="teams.html">Reviews </a>
+                                  </li>
+                              </ul>
+                            </div>
+                            <div class="col-12 h-100 mt-4 fs-6 fw-bold text-dark-emphasis text-capitalize">
+
+                            <p> 
+                              <i class="fa-solid fa-phone fa-fade fa-xl" style="color: #0d5de7;"></i>   +2349017115523
+                            </p>
+                            <p> 
+                            <address>
+                              <i class="fa-solid fa-location-dot fa-fade fa-xl" style="color: #0d5de7;"></i> 
+                              234,victoria island Lagos Nigeria
+                            </address>
+                           </p>
+                           <p> 
+                            <i class="fa-solid fa-envelope fa-lg fa fa-fade" style="color: #0756df;"></i>
+                            qieyazyezeed1@gmail.com
+                         </p>
+                            </div>
+
+                   
+                      
+                            <div class="col-12 text-dark fs-5 text-wrap mt-4  bg-dark-subtle text-white p-2">
+                               &copy;Supermart 2024 | All Rights Reserved | Design by Yezid 
+                            </div>
+                            <div class="col-12 bg-dark-subtle">
+                              <a href="https://www.facebook.com" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-facebook fa-shake fa-lg p-4 "></i>
+                              </a>
+                              <a href="https://www.twitter.com" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-twitter fa-shake fa-lg p-4 "></i>
+                              </a>
+                              
+                              <a href="https://www.instagram.com" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-instagram fa-shake fa-lg p-4 "></i>
+                              </a>
+                    
+                              <a href="https://www.fa-linkedin.com" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-linkedin fa-shake fa-lg p-4 "></i>
+                              </a>
+                            </div>
+                           
+                      </div> 
               </footer>
+
+
+              <script src="https://kit.fontawesome.com/c5745c5215.js" crossorigin="anonymous"></script>
               <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
               <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
